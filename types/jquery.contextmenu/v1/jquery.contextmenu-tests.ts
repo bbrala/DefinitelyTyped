@@ -1,4 +1,6 @@
-// http://swisnl.github.io/jQuery-contextMenu/docs.html
+
+
+//http://medialize.github.io/jQuery-contextMenu/docs.html
 
 //Disable a contextMenu trigger
 $(".some-selector").contextMenu(false);
@@ -15,15 +17,3 @@ $.contextMenu('destroy', ".some-selector");
 
 //Unregister all contextMenus
 $.contextMenu('destroy');
-
-$.contextMenu({
-    selector: '.context-menu',
-    items: {
-        copy: {
-            name: "Copy",
-            callback: function(key, opt){
-                alert("Clicked on " + key);
-            }
-        }
-    }
-});
