@@ -20,7 +20,7 @@
     "forceConsistentCasingInFileNames": true
   },
   "files": [
-    "jquery.contextmenu.d.ts",
+    "index.d.ts",
     "jquery.contextmenu-tests.ts"
   ]
 }
