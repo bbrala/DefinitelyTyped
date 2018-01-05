@@ -9,10 +9,18 @@
         "noImplicitThis": true,
         "strictNullChecks": false,
         "strictFunctionTypes": true,
-        "baseUrl": "../",
+        "baseUrl": "../../",
         "typeRoots": [
-            "../"
+            "../../"
         ],
+		"paths": {
+			"jquery.contextmenu": [
+				"jquery.contextmenu/v1"
+			],
+			"jquery.contextmenu/*": [
+				"jquery.contextmenu/v1/*"
+			]
+		},
         "types": [],
         "noEmit": true,
         "forceConsistentCasingInFileNames": true
